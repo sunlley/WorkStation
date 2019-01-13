@@ -3,8 +3,8 @@ package com.kayo.lib.worker.orders;
 import com.kayo.lib.worker.callbacks.QueueCallback;
 import com.kayo.lib.worker.enums.TaskResult;
 import com.kayo.lib.worker.enums.TaskStatus;
-import com.kayo.lib.worker.interfaces.IQueue;
-import com.kayo.lib.worker.interfaces.ITask;
+import com.kayo.lib.worker.queues.IQueue;
+import com.kayo.lib.worker.taskes.ITask;
 
 import java.util.concurrent.TimeUnit;
 

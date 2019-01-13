@@ -1,8 +1,7 @@
 package com.kayo.lib.worker.queues;
 
 import com.kayo.lib.worker.callbacks.QueueCallback;
-import com.kayo.lib.worker.interfaces.IQueue;
-import com.kayo.lib.worker.interfaces.ITask;
+import com.kayo.lib.worker.taskes.ITask;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.PriorityBlockingQueue;

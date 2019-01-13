@@ -1,4 +1,4 @@
-package com.kayo.lib.worker.interfaces;
+package com.kayo.lib.worker.orders;
 
 /**
  * Kayo

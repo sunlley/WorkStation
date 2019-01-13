@@ -3,7 +3,6 @@ package com.kayo.lib.worker.taskes;
 import com.kayo.lib.worker.enums.TaskPriority;
 import com.kayo.lib.worker.enums.TaskResult;
 import com.kayo.lib.worker.enums.TaskStatus;
-import com.kayo.lib.worker.interfaces.ITask;
 
 /**
  * Kayo

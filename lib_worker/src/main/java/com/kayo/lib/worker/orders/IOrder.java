@@ -1,4 +1,7 @@
-package com.kayo.lib.worker.interfaces;
+package com.kayo.lib.worker.orders;
+
+import com.kayo.lib.worker.queues.IQueue;
+import com.kayo.lib.worker.taskes.ITask;
 
 import java.util.Map;
 
