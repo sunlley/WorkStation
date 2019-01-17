@@ -18,8 +18,7 @@ so...
 ### 2、我的列队能够干什么
 你可以实现
 (1)并行任务，就是多个任务可以一起进行
-![](https://upload-images.jianshu.io/upload_images/4717230-6a0bb4a9e7e339ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
-
+![](https://upload-images.jianshu.io/upload_images/4717230-6a0bb4a9e7e339ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 此时任务1和任务2是同时进行，与结果无关
 
 (2)串行任务，就是任务根据一定的规律一个一个的进行
