@@ -1,10 +1,10 @@
 
-# 列队工作站
+# 队列工作站
 
-2019年了，开年一直想写一个任务列队，满足日常的任务调度，
+2019年了，开年一直想写一个任务队列，满足日常的任务调度，
 ![](https://upload-images.jianshu.io/upload_images/4717230-bb7fa3d8c701ef5e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### 1、为什么要写个列队
+### 1、为什么要写个队列
 作为程序员，日常就是和产品妹妹“聊天”，但是聊天是美好的，内容是残酷的！-！
 产品妹妹：“程序员小哥哥，我这里有个小需求你给看下呗！”
 我：“嗯”
@@ -15,7 +15,7 @@
 so...
 我就实现了一个这样的列队。。。
 
-### 2、我的列队能够干什么
+### 2、我的队列能够干什么
 你可以实现
 (1)并行任务，就是多个任务可以一起进行
 ![](https://upload-images.jianshu.io/upload_images/4717230-6a0bb4a9e7e339ca.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -42,7 +42,7 @@ so...
 
 是不是很强大，是不是很想用起来 ^~^ !
 
-### 3、怎么用我的列队
+### 3、怎么用我的队列
 第一步
 
 ![](https://upload-images.jianshu.io/upload_images/4717230-b80fefe30e490621.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
