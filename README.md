@@ -47,8 +47,27 @@ so...
 
 ![](https://upload-images.jianshu.io/upload_images/4717230-b80fefe30e490621.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+```groovy
+
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+
+
+```
+
 第二步
 
 ![](https://upload-images.jianshu.io/upload_images/4717230-a2fb89e1266468d1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+```groovy
+
+    dependencies {
+    	implementation 'com.github.kayoSun:WorkStation:lastversion'
+    }
+
+
+```
 
 完美，您可以进行的使用了
