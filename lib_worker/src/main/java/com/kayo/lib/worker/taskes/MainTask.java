@@ -14,7 +14,7 @@ import com.kayo.lib.worker.enums.TaskResult;
  */
 public class MainTask<D> extends AbsTask<D> {
 
-    private WeakHandler mHandler;
+    private final WeakHandler mHandler;
 
     public MainTask() {
         mHandler = new WeakHandler(new Handler.Callback() {

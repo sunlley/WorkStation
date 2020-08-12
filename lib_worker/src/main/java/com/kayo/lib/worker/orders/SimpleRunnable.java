@@ -35,9 +35,7 @@ class SimpleRunnable implements Runnable {
                         long delay = take.delay();
                         //延迟操作
                         if (delay >0){
-                            System.out.println("延迟任务：开始");
                             TimeUnit.MILLISECONDS.sleep(delay);
-                            System.out.println("延迟任务：结束");
                         }
                         take.prepare();
                         take.status(TaskStatus.DOING);
@@ -62,7 +60,6 @@ class SimpleRunnable implements Runnable {
     }
 
     private void onDone(){
-        System.out.println("线程结束");
         isRunning = false;
         if (callback != null) {
             callback.onDone();

@@ -3,9 +3,10 @@ package com.kayo.lib.worker;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.VisibleForTesting;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
 
 import java.lang.ref.WeakReference;
 import java.util.concurrent.locks.Lock;
@@ -251,6 +252,8 @@ public class WeakHandler {
                 }
                 prev = null;
                 next = null;
+            }catch (Exception e){
+                e.printStackTrace();
             } finally {
                 lock.unlock();
             }
@@ -267,6 +270,8 @@ public class WeakHandler {
                 candidate.next = this.next;
                 this.next = candidate;
                 candidate.prev = this;
+            }catch (Exception e){
+                e.printStackTrace();
             } finally {
                 lock.unlock();
             }
@@ -283,6 +288,8 @@ public class WeakHandler {
                     }
                     curr = curr.next;
                 }
+            }catch (Exception e){
+                e.printStackTrace();
             } finally {
                 lock.unlock();
             }
