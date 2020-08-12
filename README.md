@@ -1,6 +1,6 @@
 
 # WorkStation 队列工作站
-[![](https://jitpack.io/v/kayoSun/WorkStation.svg)](https://jitpack.io/#kayoSun/Tack) [![](https://github.com/kayoSun/resource/blob/master/svgs/apachelicense.svg)](LICENSE.txt)
+[![](https://jitpack.io/v/kayoSun/WorkStation.svg)](https://jitpack.io/#kayoSun/WorkStation) [![](https://github.com/kayoSun/resource/blob/master/svgs/apachelicense.svg)](LICENSE.txt)
 
 2019年了，开年一直想写一个任务队列，满足日常的任务调度，
 ![](https://upload-images.jianshu.io/upload_images/4717230-bb7fa3d8c701ef5e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
