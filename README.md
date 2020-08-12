@@ -1,5 +1,6 @@
 
 # WorkStation 队列工作站
+[![](https://jitpack.io/v/kayoSun/WorkStation.svg)](https://jitpack.io/#kayoSun/Tack) [![](https://github.com/kayoSun/resource/blob/master/svgs/apachelicense.svg)](LICENSE.txt)
 
 2019年了，开年一直想写一个任务队列，满足日常的任务调度，
 ![](https://upload-images.jianshu.io/upload_images/4717230-bb7fa3d8c701ef5e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -74,3 +75,25 @@ so...
 | 0.0.3        | 21 | support androidx |
 
 完美，您可以进行的使用了
+
+## 联系作者
+
+欢迎提issue<br>
+
+
+## License
+```
+Copyright 2018 Kayo
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
